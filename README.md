@@ -2,14 +2,14 @@
 This repository contains my capstone project for the Codecademy PyTorch course, demonstrating proficiency in building neural networks for diverse tasks. It includes three subprojects, each implemented as a Jupyter Notebook using PyTorch to address distinct datasets and machine learning problems in the healthcare domain.
 ## Project Overview
 The project showcases three neural network models designed for the following tasks:
- - **Analyzing Health Factors**: Predicting diabetes likelihood and patient age using tabular health data.
+ - [**Analyzing Health Factors**](health_factors_prediction.ipynb): Predicting diabetes likelihood and patient age using tabular health data.
  - **Classifying Medical Text**: Classifying medical text data for diagnostic or sentiment analysis.
  - **Classifying Retinal Images**: Detecting diabetic retinopathy from retinal images.
 
 Each subproject highlights different aspects of neural network design, including data preprocessing, model architecture, training, and evaluation, using PyTorch.
 
 ## Subprojects
-  1. **Analyzing Health Factors - Predicting Diabetes and Age**
+  1. [**Analyzing Health Factors - Predicting Diabetes and Age**](health_factors_prediction.ipynb)
      - **Objective**: Predict diabetes likelihood (multi-class classification) and patient age (regression) using tabular health data.
      - **Dataset**: Сleaned version of a [CDC dataset](https://www.kaggle.com/datasets/cdc/behavioral-risk-factor-surveillance-system) available within the [UCI Machine Learning Repo](https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators).
      - **Model**: A feedforward neural network with custom architecture to handle multi-task learning (classification and regression).
