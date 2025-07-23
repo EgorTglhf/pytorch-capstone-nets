@@ -3,7 +3,7 @@ This repository contains my capstone project for the Codecademy PyTorch course, 
 ## Project Overview
 The project showcases three neural network models designed for the following tasks:
  - [**Analyzing Health Factors**](health_factors_prediction.ipynb): Predicting diabetes likelihood and patient age using tabular health data.
- - **Classifying Medical Text**: Classifying medical text data for diagnostic or sentiment analysis.
+ - [**Classifying Medical Text**](medical_text_classification.ipynb): Classifying medical text data for diagnostic or sentiment analysis.
  - **Classifying Retinal Images**: Detecting diabetic retinopathy from retinal images.
 
 Each subproject highlights different aspects of neural network design, including data preprocessing, model architecture, training, and evaluation, using PyTorch.
@@ -18,7 +18,7 @@ Each subproject highlights different aspects of neural network design, including
         - Two networks for simultaneous prediction of diabetes and age.
         - Evaluation metrics: Accuracy and AUC for diabetes prediction; MSE for age prediction.
      - **Notebook**: health_factors_prediction.ipynb
-  2. **Classifying Medical Text**
+  2. [**Classifying Medical Text**](medical_text_classification.ipynb)
      - **Objective**: Classify medical text (e.g., clinical notes or reports) into diagnostic categories or sentiment labels.
      - **Dataset**: [MedQuAD dataset](https://github.com/abachaa/MedQuAD/tree/master) from the research paper [A Question-Entailment Approach to Question Answering](https://arxiv.org/pdf/1901.08079).
      - **Model**: A FeedForward neural network and Transformer.
