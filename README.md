@@ -4,7 +4,7 @@ This repository contains my capstone project for the Codecademy PyTorch course, 
 The project showcases three neural network models designed for the following tasks:
  - [**Analyzing Health Factors**](health_factors_prediction.ipynb): Predicting diabetes likelihood and patient age using tabular health data.
  - [**Classifying Medical Text**](medical_text_classification.ipynb): Classifying medical text data for diagnostic or sentiment analysis.
- - **Classifying Retinal Images**: Detecting diabetic retinopathy from retinal images.
+ - [**Classifying Retinal Images**](retinal_image_classification.ipynb): Detecting diabetic retinopathy from retinal images.
 
 Each subproject highlights different aspects of neural network design, including data preprocessing, model architecture, training, and evaluation, using PyTorch.
 
@@ -28,14 +28,13 @@ Each subproject highlights different aspects of neural network design, including
         - Evaluation metrics: Accuracy, F1-score, and confusion matrix.
      - **Notebook**: medical_text_classification.ipynb
 
-  3. **Classifying Retinal Images for Diabetic Retinopathy**
-     - **Objective**: Detect diabetic retinopathy from retinal images (multi-class classification).
+  3. [**Classifying Retinal Images for Diabetic Retinopathy**](retinal_image_classification.ipynb)
+     - **Objective**: Detect diabetic retinopathy from retinal images (binary classification).
      - **Dataset**: [IDRiD dataset](https://idrid.grand-challenge.org/Data/).
-     - **Model**: .
+     - **Model**: CNN.
      - **Key Features**:
         - Image preprocessing: Resizing, augmentation (e.g., rotation, flipping), and normalization.
-        - Transfer learning to improve performance on limited data.
-        - Evaluation metrics: Accuracy, precision, recall, and ROC curves.
+        - Evaluation metrics: Accuracy, precision, recall, F1-score.
      - **Notebook**: retinal_image_classification.ipynb
 
 
